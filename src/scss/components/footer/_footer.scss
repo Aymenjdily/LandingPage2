@@ -1,0 +1,32 @@
+.footer{
+    border-bottom: 1px solid var(--white-alt);
+    h6{
+        color: var(--gray);
+        font-size: 1.1rem;
+    }
+
+    h4{
+        color: var(--white);
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    &-links{
+        display: flex;
+        a {
+            text-decoration: none;
+            color: var(--gray);
+            text-decoration: underline;
+            font-size: 1.5rem;
+            transition: .3s;
+
+            &:hover{
+                color: var(--first-color);
+            }
+        }
+
+        @media screen and (max-width:760px){
+            display: grid;
+        }
+    }
+}

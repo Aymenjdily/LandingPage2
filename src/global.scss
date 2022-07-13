@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  font-family: var(--google-font) !important;
+
+  background-color: var(--black-alt) !important; 
+}
+
+*::selection{
+  background-color: var(--first-color);
+  color: var(--white);
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+
+@import'./scss/fonts/fonts';
+
+@import'./scss/colors/colors';
+
+@import'./scss/components/header/header';
+
+@import'./scss/container/layout';
+
+@import'./scss/components/about/about';
+
+@import'./scss/components/pricing/pricing';
+
+@import'./scss/components/subscribe/subscribe';
+
+@import'./scss/components/social/social';
+
+@import'./scss/components/footer/footer';
+
+@import'./scss/components/copyright/copyright';

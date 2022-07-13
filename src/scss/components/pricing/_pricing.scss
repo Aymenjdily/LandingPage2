@@ -1,0 +1,24 @@
+.pricing{
+    border-bottom: 1px solid var(--white-alt);
+    h4{
+        color: var(--white);
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    &-container{
+
+    }
+
+    &-icon{
+        color: var(--white);
+        border: 2px solid var(--white);
+        font-size: 2rem;
+        border-radius: 50%;
+    }
+
+    p{
+        color: var(--gray);
+        font-size: 1.3rem;
+    }
+}

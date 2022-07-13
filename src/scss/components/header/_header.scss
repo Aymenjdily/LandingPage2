@@ -1,0 +1,26 @@
+.header{
+    background-color: var(--black);
+    border-bottom: 1px solid var(--white-alt);
+    h1 {
+        font-size: 5rem;
+        color: var(--white);
+        font-weight: 800;
+
+        span{
+            background-color: var(--first-color);
+        }
+
+
+        @media screen and (max-width:760px){
+            font-size: 4rem;
+        }
+
+        @media screen and (max-width:480px){
+            font-size: 3rem;
+        }
+
+        @media screen and (max-width:330px){
+            font-size: 2rem;
+        }
+    }
+}

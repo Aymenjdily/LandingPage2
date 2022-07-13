@@ -1,0 +1,45 @@
+.subscribe{
+    border-bottom: 1px solid var(--white-alt);
+    h4{
+        color: var(--white);
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    p{
+        color: var(--gray);
+        font-size: 1.3rem;
+    }
+
+    h6{
+        color: var(--gray);
+        font-size: 1.1rem;
+    }
+
+    form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        input{
+            width: 100%;
+            background-color: var(--black-alt);
+            border: none;
+            text-transform: capitalize;
+            font-size: 1.3rem;
+            border-radius: 20px;
+        }
+
+        button{
+            width: 100%;
+            background-color: var(--first-color);
+            color: var(--white);
+            text-transform: uppercase;
+            border: none;
+            border-radius: 20px;
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+    }
+}
